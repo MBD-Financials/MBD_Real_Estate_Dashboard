@@ -128,7 +128,7 @@ function App() {
             <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
             <RefineSnackbarProvider>
                 <Refine
-                    dataProvider={dataProvider("https://mbd-real-estate.onrender.com/api/v1")}
+                    dataProvider={dataProvider("https://mbd-real-estate.onrender.com")}
                     notificationProvider={notificationProvider}
                     ReadyPage={ReadyPage}
                     catchAll={<ErrorComponent />}
